@@ -1,0 +1,12 @@
+server:
+  port: 9005 #指定启动端口号
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/testdb?useSSL=false&serverTimezone=UTC
+    username: root
+    password: rt123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
